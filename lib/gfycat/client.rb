@@ -3,7 +3,7 @@ module Gfycat
   class Client
 
     def initialize(options = {})
-      @client = JsonClient.new(api_url, **options)
+      @client = JsonClient.new(api_url, options)
     end
 
     def transcode!(source)

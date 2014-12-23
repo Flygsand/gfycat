@@ -4,6 +4,7 @@ require "virtus"
 require "virtus/uri"
 require "faraday"
 require "faraday_middleware"
+require "mime/types"
 
 require "gfycat/version"
 require "gfycat/middleware"

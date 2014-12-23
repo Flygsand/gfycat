@@ -23,6 +23,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "faraday_middleware", "~> 0.9.1"
   spec.add_dependency "virtus"
   spec.add_dependency "virtus-uri"
+  spec.add_dependency "mime-types"
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
